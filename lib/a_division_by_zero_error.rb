@@ -1,3 +1,5 @@
-42 / 6
+require 'colorize'
 
-42 / 0
+num = 42 / 6
+
+String(num).colorize(:green)

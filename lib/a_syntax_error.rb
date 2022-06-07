@@ -1,3 +1,5 @@
+require 'colorize'
+
 x = 1
 
-x = 
+String(x).colorize(:green)

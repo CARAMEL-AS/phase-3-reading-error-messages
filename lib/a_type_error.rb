@@ -1,3 +1,6 @@
-1 + 1
+require 'colorized_string'
+require 'colorize'
 
-1 + "is the loneliest number"
+String(1 + 1).colorize(:green)
+
+String(1) + "is the loneliest number".colorize(:green)
